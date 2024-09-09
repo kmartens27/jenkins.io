@@ -137,7 +137,7 @@
           Update to WMI Windows Agents 1.3.1 in order to get the fix applied.
           </strong>
         references:
-          - url:
+          - url: 
               https://github.com/jenkinsci/windows-slave-installer-module/blob/master/CHANGELOG.md#17
             title: full changelog
           - url: https://github.com/jenkinsci/windows-slave-installer-module#upgrading-old-agents
@@ -172,7 +172,7 @@
           Windows services:
           Add support of shared directories mapping in Windows agent services.
         references:
-          - url:
+          - url: 
               https://github.com/kohsuke/winsw/blob/master/doc/extensions/sharedDirectoryMapper.md
             title: Shared Directory Mapper documentation
         issue: 23487
@@ -310,7 +310,7 @@
           - issue: 42744
           - url: https://github.com/kohsuke/winsw/blob/master/CHANGELOG.md#203
             title: WinSW Changelog
-          - url:
+          - url: 
               https://github.com/jenkinsci/windows-slave-installer-module/blob/master/CHANGELOG.md#18
             title: Windows Agent Installer changelog
       - type: rfe
@@ -575,7 +575,7 @@
         pull: 2870
         references:
           - issue: 43603
-          - url:
+          - url: 
               https://github.com/jenkinsci/windows-slave-installer-module#disabling-automatic-upgrade
             title: more information
       - type: bug
@@ -905,7 +905,7 @@
           - title: changelog
             url: https://github.com/jenkinsci/sshd-module/blob/master/CHANGELOG.md#20
           - title: plugin compatibility notice
-            url:
+            url: 
               https://github.com/jenkinsci/sshd-module/blob/master/CHANGELOG.md#20-compatibility-notice
           - issue: 43668
         pull: 2853
@@ -1120,7 +1120,7 @@
         references:
           - url: https://github.com/kohsuke/winsw/blob/master/CHANGELOG.md
             title: Windows service wrapper changelog
-          - url:
+          - url: 
               https://github.com/jenkinsci/windows-slave-installer-module/blob/master/CHANGELOG.md
             title: Windows agent installer changelog
           - pull: 2987
@@ -1249,7 +1249,7 @@
           - issue: 45755
           - url: https://github.com/jenkinsci/remoting/blob/master/CHANGELOG.md#312
             title: full changelog
-          - url:
+          - url: 
               /doc/upgrade-guide/2.73/#known-issue-agent-connection-failures-involving-jenkins-masters-with-undefined-or-non-writable-home-directory
             title: issue description in 2.73.1 upgrade guide
         pull: 3025
@@ -1471,7 +1471,7 @@
           - issue: 47393
           - url: https://plugins.jenkins.io/command-launcher
             title: Command Launcher plugin site entry
-          - url:
+          - url: 
               /security/advisory/2017-10-11/#arbitrary-shell-command-execution-on-controller-by-users-with-agent-related-permissions
             title: related security advisory
       - type: rfe
@@ -1667,7 +1667,7 @@
           they connect.
         pull: 3130
         references:
-          - url:
+          - url: 
               https://github.com/jenkinsci/windows-slave-installer-module/blob/master/CHANGELOG.md#192
             title: full changelog
           - issue: 47015
@@ -2294,7 +2294,7 @@
       - type: bug
         references:
           - issue: 48725
-          - url:
+          - url: 
               https://github.com/jenkinsci/lib-task-reactor/blob/master/CHANGELOG.md#version-15
             title: full changelog
         pull: 3270
@@ -2307,7 +2307,7 @@
           Developer: Introduce <code>ACL#lambda</code> convenience method.
         references:
           - pull: 3260
-          - url:
+          - url: 
               https://javadoc.jenkins-ci.org/hudson/security/ACL.html#lambda-java.util.function.BiFunction-
             title: Javadoc
     # pull: 3274 disables test (should be in 2.104 but whatever)
@@ -2352,7 +2352,7 @@
         references:
           - url: /security/advisory/2017-12-05/
             title: 2017-12-05 security advisory
-          - url:
+          - url: 
               /security/advisory/2018-01-22/#xss-vulnerability-in-job-configuration-forms-in-ant-plugin
             title: Ant Plugin fix in 2018-01-22 security advisory
   - version: "2.108"
@@ -3376,7 +3376,7 @@
         pull: 3528
         references:
           - issue: 51965
-          - url:
+          - url: 
               https://github.com/jenkinsci/instance-identity-module/blob/master/CHANGELOG.md#22
             title: full changelog
         message: >
@@ -3878,7 +3878,7 @@
             title: announcement blog post
           - url: /doc/upgrade-guide/2.138/#security-hardening-to-prevent-xss-vulnerabilities
             title: LTS upgrade guide
-          - url:
+          - url: 
               https://wiki.jenkins.io/display/JENKINS/Plugins+affected+by+2018-10-10+Stapler+security+hardening
             title: list of affected plugins
       - type: rfe
@@ -3982,7 +3982,7 @@
       - type: rfe
         references:
           - pull: 3723
-          - url:
+          - url: 
               https://github.com/jenkinsci/windows-slave-installer-module/blob/master/CHANGELOG.md#193
             title: Windows Agent Installer changelog
         message: >
@@ -4131,7 +4131,7 @@
           with alpha/beta plugin releases that require Java 11.
         references:
           - issue: 55080
-          - url:
+          - url: 
               https://github.com/jenkinsci/jep/tree/master/jep/211#experimental-update-center-for-java-11
             title: Experimental Update Center for Java 11 in JEP-211
       - type: rfe
@@ -4295,7 +4295,7 @@
           - pull: 3854
           - url: https://github.com/kohsuke/winsw/blob/master/CHANGELOG.md#220
             title: Windows Service Wrapper changelog
-          - url:
+          - url: 
               https://github.com/jenkinsci/windows-slave-installer-module/blob/master/CHANGELOG.md#1100
             title: Windows Agent Installer Module changelog
         message: >
@@ -4582,7 +4582,7 @@
           - pull: 3896
           - url: https://github.com/jenkinsci/jep/tree/master/jep/216
             title: JEP-216
-          - url:
+          - url: 
               https://github.com/kohsuke/localizer/compare/localizer-parent-1.24...localizer-parent-1.26
             title: full changelog
         message: >
@@ -4912,7 +4912,7 @@
     changes:
       - type: rfe
         references:
-          - url:
+          - url: 
               /doc/pipeline/steps/core/#fingerprint-record-fingerprints-of-files-to-track-usage
             title: documentation
           - pull: 3915
@@ -4926,7 +4926,7 @@
         pull: 4010
         references:
           - issue: 51577
-          - url:
+          - url: 
               https://github.com/jenkinsci/windows-slave-installer-module/blob/master/CHANGELOG.md#111
             title: full changelog
         message: |-
@@ -5453,7 +5453,7 @@
           - pull: 4167
           - url: https://github.com/kohsuke/winsw/blob/master/CHANGELOG.md#230
             title: WinSW changelog
-          - url:
+          - url: 
               https://github.com/jenkinsci/windows-slave-installer-module/releases/tag/windows-slave-installer-1.12
             title: Windows Agent Installer module 1.12 changelog
         message: |-
@@ -6898,10 +6898,10 @@
           - issue: 60266
           - url: https://github.com/jenkinsci/jep/blob/master/jep/223/README.adoc
             title: JEP-223
-          - url:
+          - url: 
               /security/advisory/2017-04-10/#matrix-authorization-strategy-plugin-allowed-configuring-dangerous-permissions
             title: 2017-04-10 security advisory for Matrix Authorization plugin
-          - url:
+          - url: 
               /security/advisory/2017-04-10/#role-based-authorization-strategy-plugin-allowed-configuring-dangerous-permissions
             title: 2017-04-10 security advisory for Role-Based Authorization plugin
         message: |-
@@ -7323,7 +7323,7 @@
           - daniel-beck
         references:
           - pull: 4561
-          - url:
+          - url: 
               https://github.com/jenkinsci/script-security-plugin/blob/master/CHANGELOG.md#version-170
             title: Script security plugin 1.70 changelog
           - url: /security/advisory/2020-03-09/#SECURITY-1754
@@ -8142,7 +8142,7 @@
             title: Changelog up to 1.2.5
           - url: https://github.com/eclipse-ee4j/jstl-api/compare/1.2.3-RELEASE..1.2.7-RELEASE
             title: Diff of 1.2.3 to 1.2.7
-          - url:
+          - url: 
               https://github.com/javaee/jstl-api/compare/javax.servlet.jsp.jstl-1.2.1..javax.servlet.jsp.jstl-1.2.3
             title: Diff of 1.2.1 to 1.2.3
         message: |-
@@ -8778,7 +8778,7 @@
         references:
           - url: /blog/2020/07/23/windows-support-updates/
             title: announcement
-          - url:
+          - url: 
               /blog/2020/07/23/windows-support-updates/#use-cases-affected-by-net-framework-2-0-support-removal
             title: upgrade guidelines
           - issue: 60005
@@ -8795,12 +8795,12 @@
         category: major rfe
         pull: 4823
         references:
-          - url:
+          - url: 
               /blog/2020/07/23/windows-support-updates/#windows-service-management-changes-in-jenkins-2-248
             title: changes summary
           - url: https://github.com/winsw/winsw/releases
             title: full WinSW changelog
-          - url:
+          - url: 
               https://github.com/jenkinsci/windows-slave-installer-module/releases/tag/windows-slave-installer-2.0
             title: Windows Agent Installer 2.0 changelog
         authors:
@@ -8988,7 +8988,7 @@
         pull: 4823
         references:
           - pull: 4823
-          - url:
+          - url: 
               https://github.com/jenkinsci/windows-slave-installer-module/releases/tag/windows-slave-installer-2.0
             title: Windows Agent Installer 2.0 changelog
         authors:
@@ -9026,7 +9026,7 @@
         message: |-
           Internal: Document the Jenkins core issue triage guidelines.
         references:
-          - url:
+          - url: 
               https://github.com/jenkinsci/jenkins/blob/master/docs/MAINTAINERS.adoc#issue-triage
             title: documentation
 
@@ -10583,7 +10583,7 @@
           - dependabot[bot]
         references:
           - pull: 5165
-          - url:
+          - url: 
               https://github.com/apache/commons-codec/blob/rel/commons-codec-1.15/RELEASE-NOTES.txt
             title: Apache commons-codec 1.15 release notes
         message: |-
@@ -11147,22 +11147,22 @@
           - jeffret-b
         references:
           - pull: 5347
-          - url:
+          - url: 
               https://github.com/jenkinsci/bouncycastle-api-plugin/releases/tag/bouncycastle-api-2.20
             title: bouncycastle-api 2.20 changelog
-          - url:
+          - url: 
               https://github.com/jenkinsci/bouncycastle-api-plugin/releases/tag/bouncycastle-api-2.18
             title: bouncycastle-api 2.18 changelog
-          - url:
+          - url: 
               https://github.com/jenkinsci/bouncycastle-api-plugin/blob/master/docs/CHANGELOG.md#217
             title: bouncycastle-api 2.17 changelog
-          - url:
+          - url: 
               https://github.com/jenkinsci/bouncycastle-api-plugin/blob/master/docs/CHANGELOG.md#2163
             title: bouncycastle-api 2.16.3 changelog
-          - url:
+          - url: 
               https://github.com/jenkinsci/bouncycastle-api-plugin/blob/master/docs/CHANGELOG.md#2162
             title: bouncycastle-api 2.16.2 changelog
-          - url:
+          - url: 
               https://github.com/jenkinsci/bouncycastle-api-plugin/blob/master/docs/CHANGELOG.md#2161
             title: bouncycastle-api 2.16.1 changelog
           - url: https://www.bouncycastle.org/releasenotes.html
@@ -13471,7 +13471,7 @@
         pr_title: Deprecate FingerprintStorage#getFileFingerprintStorage
         references:
           - pull: 5423
-          - url:
+          - url: 
               https://javadoc.jenkins.io/jenkins/fingerprints/FingerprintStorage.html#getFileFingerprintStorage--
             title: FingerprintStorage.getFileFingerprintStorage javadoc
           - url: /doc/developer/extensions/jenkins-core/#fingerprintstorage
@@ -13752,7 +13752,7 @@
         pr_title: "[JEP-7] Remove `jruby` support from Stapler"
         references:
           - pull: 6103
-          - url:
+          - url: 
               https://github.com/jenkinsci/jep/tree/master/jep/7#jep-7-deprecation-of-ruby-and-python-plugin-runtimes
             title: "JEP-7: Deprecation of Ruby and Python plugin runtimes"
           - url: /blog/2021/12/22/deprecated-ruby-runtime/
@@ -16369,7 +16369,7 @@
         authors:
           - MarkEWaite
         references:
-          - url:
+          - url: 
               https://github.com/jenkinsci/plugin-installation-manager-tool/releases/tag/2.12.7
             title: Plugin installation manager tool 2.12.7 changelog
         message: |-
@@ -24606,6 +24606,8 @@
     changes:
       - type: rfe
         category: rfe
+        pull: 9672
+        issue: 73278
         authors:
           - basil
         pr_title: "[JENKINS-73278] Migrate core from EE 8 to EE 9"
@@ -24626,8 +24628,6 @@
             title: LDAP plugin 733.vd3700c27b_043
           - url: https://www.jenkins.io/doc/book/platform-information/support-policy-servlet-containers/
             title: Servlet Container Support Policy
-          - pull: 9672
-          - issue: 73278
         message: |-
           Upgrade Spring Framework from 5.3.39 to 6.1.12, upgrade Spring Security from 5.8.14 to 6.3.3, and upgrade Java EE from 8 to 9.
           Users of the LDAP plugin must upgrade it to version 733.vd3700c27b_043 in lockstep with upgrading Jenkins core.
@@ -24696,7 +24696,7 @@
         pr_title: Add doCheckDisplayNameOrNull to jenkins core
         message: |-
           Move <code>doCheckDisplayNameOrNull</code> from <code>AbstractProject</code> to <code>TopLevelItemDescriptor</code> to allow reuse in pipeline.
-
+  
   # pull: 9666 (PR title: Update Yarn to v4.4.1)
   # pull: 9668 (PR title: Update dependency org.jenkins-ci:jenkins to v1.120)
   # pull: 9669 (PR title: Update jenkins/ath Docker tag to v5957)
